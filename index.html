@@ -1,0 +1,20 @@
+---
+layout: default
+published: true
+---
+<link rel="stylesheet" href="./_layout/style.css">
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <font face="elham.TTF">
+      <h1 dir="rtl"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div dir="rtl" class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">ادامه</a>
+      </font>
+    </article>
+  {% endfor %}
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="e2b743e0-acb8-41aa-8e4d-105df270c252";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+</div>
