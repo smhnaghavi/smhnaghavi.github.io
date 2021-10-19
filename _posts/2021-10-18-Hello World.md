@@ -73,8 +73,6 @@ published: true
   >> print("Hello \nworld")
 </div>
 
-
-
 برای نوشتن متنی که میخواهیم در چند خط باشد می توانیم از این روش هم استفاده کنیم.
 
 <div dir="ltr" style="font-weight: bold;">
@@ -82,6 +80,6 @@ published: true
  Welcome to my blog.""")
 </div>
 
+شما می توانید به صورت آنلاین هم آموخته های خودتان را تست و آزمایش کنید. در صورت نیاز به یک IDE آنلاین و رایگان می توانید از IDE زیر استفاده کنید. این IDE توسط بنده ساخته شده است.
 
-
-
+https://smhnaghavi.github.io/SMH-IDE
