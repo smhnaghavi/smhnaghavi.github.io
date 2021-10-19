@@ -73,6 +73,8 @@ published: true
   >> print("Hello \nworld")
 </div>
 
+
+
 برای نوشتن متنی که میخواهیم در چند خط باشد می توانیم از این روش هم استفاده کنیم.
 
 <div dir="ltr" style="font-weight: bold;">
