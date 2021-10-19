@@ -77,7 +77,9 @@ published: true
 
 <div dir="ltr" style="font-weight: bold;">
   >> print("""Hello world!
- Welcome to my blog.""")
+</div>
+<div dir="ltr" style="font-weight: bold;">
+Welcome to my blog.""")
 </div>
 
 شما می توانید به صورت آنلاین هم آموخته های خودتان را تست و آزمایش کنید. در صورت نیاز به یک IDE آنلاین و رایگان می توانید از IDE زیر استفاده کنید. این IDE توسط بنده ساخته شده است.
