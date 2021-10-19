@@ -20,7 +20,7 @@ published: true
 در زبان پایتون به شکل زیر اعمال می شود. 
 
 <div dir="ltr" style="font-weight: bold;">
-  >> print("Hello World")
+  >> print("Hello world")
 </div>
 
 <div dir="ltr" style="font-weight: bold;">
@@ -54,3 +54,32 @@ published: true
 </div>
 
 توجه داشته باشید که  باید به جای main.py باید نام فایلتان را بنویسید.
+
+## چند نکته ی جالب و کاربردی در رابطه با دستور print:
+
+برای چاپ کردن متن در چند خط با این دستور نیازی نیست که چند بار این دستور را بنویسید و یا برای ایجاد تب و فاصله در متن با این دستور نیازی به فاصله گذاشتن الکی نیست. 
+
+برای اینکارها روش های مختلفی وجود دارد که در زیر آورده شده است.
+
+برای زدن تب و فاصله می توانیم از \t استفاده کنیم. 
+
+<div dir="ltr" style="font-weight: bold;">
+  >> print("Hello \tworld")
+</div>
+
+برای زدن اینتر در دستور print از \n استفاده می کنیم.
+
+<div dir="ltr" style="font-weight: bold;">
+  >> print("Hello \nworld")
+</div>
+
+برای نوشتن متنی که میخواهیم در چند خط باشد می توانیم از این روش هم استفاده کنیم.
+
+<div dir="ltr" style="font-weight: bold;">
+  >> print("""Hello world!
+ Welcome to my blog.""")
+</div>
+
+
+
+
