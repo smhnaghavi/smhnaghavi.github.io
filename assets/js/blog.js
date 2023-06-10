@@ -19,6 +19,8 @@ function searchFunc() {
                         text = text.split("---------------------\n")[1];
                         if (text.search(searchPhrase) !== -1) {
                             entries.innerHTML += `<article class="entry"><div class="entry-img"><img src="${post[0]}" alt="" class="img-fluid"></div><h2 class="entry-title"><a href="blog-single.html">${post[1]}</a></h2><div class="entry-meta"><ul><li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">${post[2]}</a></li><li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-single.html">${post[3]}</a></li></ul></div><div class="entry-content"><p>${post[4]}</p><button class="btn btn-danger" onclick="showPost('${post[5]}')">مطالعه‌ی بیشتر</button></div></article>`;
+                        } else {
+                            entries.innerHTML = "<p>متاسفانه مطلبی مرتبط با جست و جوی شما یافت نشد.</p>"
                         }
                     })
                     .catch((e) => console.error(e));

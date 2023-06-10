@@ -1031,7 +1031,7 @@ section {
     margin-bottom: 30px;
 }
 
-.blog .sidebar .search-form form {
+.blog .sidebar .search-form {
     background: #fff;
     border: 1px solid #ddd;
     padding: 3px 10px;
@@ -1093,38 +1093,6 @@ section {
     padding-left: 5px;
     color: #aaaaaa;
     font-size: 14px;
-}
-
-.blog .sidebar .recent-posts .post-item+.post-item {
-    margin-top: 15px;
-}
-
-.blog .sidebar .recent-posts img {
-    width: 80px;
-    float: left;
-}
-
-.blog .sidebar .recent-posts h4 {
-    font-size: 15px;
-    margin-left: 95px;
-    font-weight: bold;
-}
-
-.blog .sidebar .recent-posts h4 a {
-    color: #493c3e;
-    transition: 0.3s;
-}
-
-.blog .sidebar .recent-posts h4 a:hover {
-    color: #e43c5c;
-}
-
-.blog .sidebar .recent-posts time {
-    display: block;
-    margin-left: 95px;
-    font-style: italic;
-    font-size: 14px;
-    color: #aaaaaa;
 }
 
 .blog .sidebar .tags {
